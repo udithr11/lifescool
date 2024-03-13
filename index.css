@@ -1,0 +1,151 @@
+body{
+    font-family:'Montserrat', sans-serif !important;
+}
+#nav_bar{
+    background-color: #f8f9fa;
+}
+.nav_ul_items{
+    justify-content: end;
+    font-weight:700;
+}
+#header_text_1{
+    padding-inline: 2rem;
+}
+#header_text_2{
+    padding-inline: 2rem;
+}
+#hero{
+    background: linear-gradient(99.76deg, #FB9939 17.21%, #FC4734 89.4%);
+    padding-top:6rem;
+    padding-bottom: 4rem;
+}
+#hero_left_items{
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    padding-top: 2rem;
+    flex-direction: column;
+}
+#hero_button{
+    border:none;
+    width:fit-content;
+    padding:0.5rem;
+    border-radius: 8px;
+    padding-inline:0.75rem;
+    font-weight:600;
+}
+
+#trending_courses_part_1{
+    background-image: url(https://lifescool.app/images_new/lines%20bgh%201.png);
+}
+#trending_courses_part_2{
+    background: linear-gradient(114.84deg, #FFE5E5 17.14%, #FFF1DC 86.97%);
+    margin-top: -3.5rem;
+}
+
+.usual{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.coming_soon{
+    color: #fff;
+    background: linear-gradient(99.76deg, #FB9939 17.21%, #FC4734 89.4%);
+    padding: 1% 5% 1% 2.75%;
+    position: absolute;
+    -webkit-clip-path: polygon(100% 0%, calc(100% - 0.75rem) 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+    clip-path: polygon(100% 0%, calc(100% - 0.75rem) 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.03rem;
+    bottom:2rem;
+    font-size: calc(0.75rem + 0.5vw);
+}
+#courses_button{
+    border:none;
+    width:fit-content;
+    padding:0.5rem;
+    border-radius: 8px;
+    padding-inline:0.75rem;
+    font-weight:600;
+    background-color: #f8f9fa;
+}
+#img_1{
+    position:absolute;
+    top:3rem;
+}
+#left_emojis{
+    position:absolute;
+    left:0;
+    top:3rem
+}
+#right_emojis{
+    position:absolute;
+    right:0;
+    top:3rem;
+}
+#learning{
+    background-image: url(https://lifescool.app/images_new/lines%20bgh%201.png);
+
+}
+
+
+
+
+
+@media (max-width: 991.98px) {
+    .nav_ul_items{
+        align-items: center !important;
+    }
+    #hero_left_items{
+        padding: 1rem !important;
+    }
+    #p1,#p2{
+        margin:0 !important;
+    }
+    #left_emojis{
+        width:22% !important;
+    }
+    #right_emojis{
+        width:22% !important;
+    }
+    
+}
+
+@media (max-width: 767px){
+    #play_store{
+        justify-content: flex-start !important;
+        padding:1.5rem;
+    }
+    .coming_soon{
+        position:absolute !important;
+        left: 0.4em;
+        bottom:2.5rem;
+    }
+    #p1{
+        padding-top: 0.5rem;
+    }
+    #p2{
+        padding-top:0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    #left_emojis{
+        display:none !important;
+    }
+    #right_emojis{
+        display:none !important;
+    }
+    
+}
+
+@media (max-width: 855px) {
+    
+
+    #left_emojis{
+        width:17% !important;
+    }
+    #right_emojis{
+        width:17% !important;
+    }
+
+}
