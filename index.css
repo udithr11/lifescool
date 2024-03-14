@@ -88,12 +88,69 @@ body{
     background-image: url(https://lifescool.app/images_new/lines%20bgh%201.png);
 
 }
+#teaching{
+    background: linear-gradient(114.84deg, #FFE5E5 17.14%, #FFF1DC 86.97%);
+}
+
+.se-5-box {
+    max-width: 650px;
+    text-align: center;
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+    height: 26em;
+    justify-content: center;
+    align-items: center;
+}
+#emoji{
+    background: linear-gradient(99.76deg, #FFBF81 17.21%, #FFA57C 89.4%);
+}
+#get_in_touch{
+    background-image: url(./images_new/input-background.png);
+    height:30vh;
+}
 
 
 
 
 
-@media (max-width: 991.98px) {
+
+
+
+
+@media (max-width: 1200px) {
+
+    .text_1{
+        font-size:16px !important;
+    }  
+    .text_2{
+        font-size:14px !important;
+    }
+    .learning_heading_1{
+        font-size: 16px !important;
+    }
+    .learning_heading_2{
+        font-size: 15px !important;
+    }
+    .emoji_images{
+        max-width: 90% !important;
+    }
+    #img_3_{
+        top: 42% !important;
+        left: -47% !important;
+    }
+    #img_6_{
+        top: 39% !important;
+    right: -40% !important;
+    }
+    #emoji_heading{
+        font-size: calc(1.375rem + 1.5vw) !important;
+
+    }
+    
+}
+
+@media (max-width: 992px) {
     .nav_ul_items{
         align-items: center !important;
     }
@@ -109,7 +166,62 @@ body{
     #right_emojis{
         width:22% !important;
     }
+    .text_1{
+        font-size:13px !important;
+    }
+    .text_2{
+        font-size:12px !important;
+    }
+    .learning_heading_1{
+        font-size: 12px !important;
+    }
+    .learning_heading_2{
+        font-size: 11px !important;
+    }
+    .teaching_image_container{
+        padding:1.5ex !important;
+    }
+    .emoji_images{
+        max-width: 85% !important;
+    }
+    #img_2_{
+        top: 7% !important;
+        left: -23% !important;
+    }
+    #img_3_{
+        left: -36% !important;
+
+    }
+    #img_7_{
+        top: 7% !important;
+    right: -16% !important;
+    }
+    #img_6_{
+        top: 41% !important;
+    right: -26% !important;
+    }
+}
+
+@media (max-width: 855px) {
     
+
+    #left_emojis{
+        width:17% !important;
+    }
+    #right_emojis{
+        width:17% !important;
+    }
+
+}
+@media (max-width: 822px){
+    #big_text{
+        font-size:11px !important ;
+    }
+}
+@media (max-width: 786px){
+    #big_text_2{
+        font-size:12px !important;
+    }
 }
 
 @media (max-width: 767px){
@@ -135,17 +247,37 @@ body{
     #right_emojis{
         display:none !important;
     }
-    
+    .text_1{
+        font-size:18px !important;
+    }  
+    .text_2{
+        font-size:16px !important;
+    }
+    #big_text{
+        font-size:18px !important ;
+    }
+    #big_text_2{
+        font-size:16px !important;
+    }
+    .learning_heading_1{
+        font-size: 18px !important;
+    }
+    .learning_heading_2{
+        font-size: 16px !important;
+    }
+    #img_2_, #img_3_, #img_6_, #img_7_{
+        display:none !important;
+    }
+    .emoji_images{
+        max-width: 70% !important;
+    }
 }
+@media (max-width: 651px){
+    #img_5{
+        right: -3% !important;
 
-@media (max-width: 855px) {
-    
-
-    #left_emojis{
-        width:17% !important;
     }
-    #right_emojis{
-        width:17% !important;
+    #img_4_{
+        left:-3% !important;
     }
-
 }
