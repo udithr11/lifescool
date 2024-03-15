@@ -296,9 +296,12 @@ body{
         left:-3% !important;
     }
 }
-@media(max-width:550px){
+@media(max-width: 576px){
     #get_in_touch_padding{
         padding-left: 0.5rem !important;
         padding-right:0.5rem !important;
+    }
+    #tail_text_2,#tail_text_3{
+        text-align:center !important;
     }
 }
