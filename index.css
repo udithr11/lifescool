@@ -110,9 +110,17 @@ body{
     height:30vh;
 }
 
+#get_in_touch{
+    background-image: url(https://lifescool.app/images_new/lines%20bgh%201.png);
+}
 
-
-
+.last_input{
+    padding:0.7rem;
+    border: 1px solid #CECECE;
+    border-radius: 12px;
+    background: #FFF7EC;
+    
+}
 
 
 
@@ -271,13 +279,26 @@ body{
     .emoji_images{
         max-width: 70% !important;
     }
+    #tail_text_1{
+        text-align: center !important;
+    }
+    #tail_text_2{
+        text-align: left !important;
+        padding-left:0 !important;
+    }
 }
 @media (max-width: 651px){
-    #img_5{
-        right: -3% !important;
 
+    #img_5_{
+        right:-3% !important;
     }
     #img_4_{
         left:-3% !important;
+    }
+}
+@media(max-width:550px){
+    #get_in_touch_padding{
+        padding-left: 0.5rem !important;
+        padding-right:0.5rem !important;
     }
 }
